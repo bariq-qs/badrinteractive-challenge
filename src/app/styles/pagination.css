@@ -1,0 +1,21 @@
+/* components/Pagination.module.css */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.page-item.active .page-link {
+  background-color: #0070f3;
+  color: white;
+}

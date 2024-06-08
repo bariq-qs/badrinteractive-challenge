@@ -1,0 +1,23 @@
+label {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+label.required::after,
+p.required::after {
+  content: " *";
+  color: red;
+}
+
+.invalid-text {
+  color: red;
+}
+
+input.chakra-input:disabled {
+  background-color: #D7DDE1;
+  color: #012D41;
+  font-weight: 500;
+  /* &::placeholder {
+    color: #6E7478;
+  } */
+}
