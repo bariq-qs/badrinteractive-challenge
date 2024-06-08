@@ -1,0 +1,27 @@
+.table-default {
+  border: 1px solid #E0E0E0;
+  width: 100%;
+
+  tr {
+    border-bottom: 2px solid #E0E0E0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    td {
+      padding: 18px 16px;
+      font-size: 16px;
+    }
+  }
+
+  >thead {
+    >tr {
+      border-bottom: 2px solid #E0E0E0 !important;
+
+      >td {
+        font-weight: 700;
+      }
+    }
+  }
+}
